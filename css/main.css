@@ -291,7 +291,7 @@ h2	{font-family: 'Noto Sans', sans-serif, cursive; font-size:30px; }
 .mobile{display:none;}
 /*----MAIN------*/
 .first-main {background:url(../img/bg1.jpg)no-repeat center/cover;}
-.first-main p {width:100%;text-align:center; color:#000; font-size:15px; padding-top:420px; }
+.first-main p {width:100%; text-align:center; color:#000; font-size:15px; padding-top:450px; }
 .first-main img {padding:20px;}
 .pic img { right:50%; top:50%;}
 
@@ -346,21 +346,21 @@ h2	{font-family: 'Noto Sans', sans-serif, cursive; font-size:30px; }
 /*----final-footer ------*/
 .footer-wrap { width:100%;}
 .footer-menu {display:table;}
-.footer-menu > div p {color:#fff; font-size:13px;}
+.footer-menu > div p {color:#000; font-size:13px;}
 .footer-menu > div {display:table-cell; vertical-align:middle;}
 .footer-menu >div h3{font-size:16px; padding-bottom:8px;}
-.call {width:204px;}
+.contact2 {width:204px;}
 .money{width:204px; margin-top:10px;}
 
-.info {width:640px;  }
-.info p{ margin-left:20px }
+.info {width:640px;}
+.info p{ margin-left:140px; }
 
 .logo1{width:160px; background:#fff; height:160px; text-align:center;}
 
 .footer-wrap {position:absolute; bottom:0; left:0; right:0;}
 .footer-menu  {position:absolute; width:1200px; left:50%; margin-left: -550px; }
-.footer-left {float:left;width:45%; height:160px; background:#52a875;}
-.footer-right {float:left; width:55%; height:160px; background:#304739;}
+.footer-left {float:left;width:45%; height:160px; background:#FFF4A0;}
+.footer-right {float:left; width:55%; height:160px; background:#8DC3EB;}
 /* ––––––fruits_cart page -------––– */
 #container > #content {    
 	display: table-cell;
@@ -400,9 +400,9 @@ h2	{font-family: 'Noto Sans', sans-serif, cursive; font-size:30px; }
 .contact, .product{display:none;}
 
 /*–––––––––LOGIN–––––––––––––––– */
-.login_ph{background:url(../img/123.jpg)no-repeat center/cover; width:100%;}
+.login_ph{background:url(../img/bg01.png)no-repeat center/cover; width:100%;}
 
-.login_title {font-family: "Nanum Gothic", sans-serif; color:#fff; margin: 10px auto 50px; text-align:center;}
+.login_title {font-family: "Nanum Gothic", sans-serif; color:#000; margin: 10px auto 50px; text-align:center;}
 
 
 
@@ -410,18 +410,18 @@ h2	{font-family: 'Noto Sans', sans-serif, cursive; font-size:30px; }
 .info_login p{padding:20px 0;}
 
 
-.wrap_1 {text-align:center;  margin-top:200px;}
-.wrap_1 p {color:#fff; margin:10px auto; font-size:18px; }
+.wrap_1 {text-align:center;  margin-top:190px;}
+.wrap_1 p {color:#555; margin:10px auto; font-size:18px; }
 
 
 form {width:100%;}
 input{
     padding: 12px 20px;
     box-sizing: border-box;}
-.id, .pw{margin: 100px 5px 12px; width:350px; }
+.id, .pw{margin: 80px 5px 12px; width:350px; }
 .pw {vertical-align:top;}
 
-.twobtn{margin-top:50px; }
+.twobtn{margin-top:30px; }
 .check {color:#fff; font-size:13px; text-align:center;
 }
 
@@ -448,7 +448,7 @@ input{
 	color:#fff;
 	text-align:center;
 	background:#394149;
-	border:1px solid rgba(0,0,0,0.8);
+	border:1px solid #394149;
 	
 }
 
@@ -512,8 +512,8 @@ form input {width:100%; height:45px; text-transform:none;}
 .footer-menu > div.logo1 {display:none;}
 .footer-menu > div {display:block;}
 .info {width:100%; background:#304739; float:left; text-align:center; line-height:20px; padding:10px 0 10px;}
-.call, .money {width:50%; height:150px; text-align:center; background:#52a875; margin:0; padding-top:10px; float:left; }
-.money {background:#a1beac; }
+.contact2, .address {width:50%; height:150px; text-align:center; background:#52a875; margin:0; padding-top:10px; float:left; }
+.address {background:#a1beac; }
 
 
 .fourth-fruitsset .wrapper > div img{position:center;}
@@ -521,8 +521,8 @@ form input {width:100%; height:45px; text-transform:none;}
 	height:450px;
 	border:none;
 }
-.call {float:left;}
-.money{float:left;}
+.contact2 {float:left;}
+.address{float:left;}
 .footer-menu {position:relative;}
 
 .bx-wrapper {width:100%;}

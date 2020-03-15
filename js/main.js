@@ -19,7 +19,7 @@ $(document).ready(function(){
   
 function fullPage(){
   $('#fullpage').fullpage({
-    sectionsColor: ['#B8AE9C', '#fff', '#334b3d', '#fff'],
+    sectionsColor: ['#B8AE9C', '#FFF', '#271a18', '#fff'],
     sectionSelector: '.vertical-scrolling',
     slideSelector: '.horizontal-scrolling',
     navigation: true,
