@@ -481,13 +481,16 @@ input{
 .bx-wrapper .bx-viewport {box-shadow:none; border:none; left:0; background:none;-webkit-box-shadow:none;-moz-box-shadow:none;}
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
 .pcmenu{display:none;}
 .mobile{display:block;}
+.wrapper {width:100%; display:none;}
+/*-----main---------*/
 .first-main, .second-best, .third-seasonfruits {display:none;}
 
-.wrapper {width:100%; display:none;}	
-.vertical-scrolling {padding:50px 0;}
+.first-main {background:url(../img/bg_mobile.png);}
+.first-main p {display:none;}
+.vertical-scrolling {padding:30px 0;}
 .fourth-fruitsset.vertical-scrolling {padding:50px 0 0; }
 .third-seasonfruits .wrapper > div {width:100%;}
 .fourth-fruitsset .wrapper > div {width:100%; margin-right:0; margin-bottom:20px;}
@@ -495,13 +498,13 @@ input{
 .fourth-fruitsset .wrapper{width:100%;}
 
 
-.login_ph {background:url(../img/plant-1210021_1920.jpg) ; }	
+.login_ph {background:url(../img/login_bg.jpg); }	
 
 
-.login_title {color:#9d9d9d; font-size:30px; text-align:center; margin-bottom:30px;     line-height: 45px;}
-header p {display:none;}
+.login_title {color:#fff; font-size:25px; text-align:center; margin-bottom:30px; line-height: 45px;}
+.login_ph header p {color:#fff; font-size:15px;}
 form input {width:100%; height:45px; text-transform:none;}
-.id, .pw {margin-top:0;}
+
 .check{color:#000;}
 
 .footer-wrap {position:relative; bottom:0;}
@@ -529,8 +532,7 @@ form input {width:100%; height:45px; text-transform:none;}
 .wrap_product{position:relative;}
 .product{display:block; text-align:center; margin-top:20px;}
 .product.category_box {width:100%; text-align:center; position:absolute;}
-.product .category_box a  
-	{ 
+.product .category_box a{ 
     display: inline-block;
     width: 116px;
     height: 35px;
@@ -549,7 +551,13 @@ form input {width:100%; height:45px; text-transform:none;}
 
 
 /*-------------contact box----------------*/
-.contact {display:block; width: 100%;  padding: 65px 0px 65px; background-color: #fddb50; margin-top: -4px; text-align:center;}
+.contact {
+	display:block; 
+	width: 100%;  
+	padding: 65px 0px 65px; 
+	background-color: #fddb50; 
+	margin-top: -4px; 
+	text-align:center;}
 .contact_title { 
     box-sizing: border-box;
 }
@@ -566,13 +574,12 @@ form input {width:100%; height:45px; text-transform:none;}
     color: #6a6a6a;
     font-size: 13px;
     background-color: #fff;
-    padding: 0 10px;
+    padding: 10px;
 	margin-bottom:10px;
-	
     box-sizing: border-box;}	
 .contact_box_textarea > textarea{
     width: 100%;
-    height: 270px;
+    height: 180px;
     color: #6a6a6a;
     font-size: 13px;
     border: 0px;
@@ -591,10 +598,7 @@ form input {width:100%; height:45px; text-transform:none;}
     cursor: pointer;}
   
   
-  
-  
-  
-}
+} /*//550px*/
 
 
 
